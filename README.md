@@ -19,7 +19,7 @@ To summarize the data, a pivot table was created from the KickStarter worksheet 
 
 To visualize the data, a pivot chart was created from the pivot table. To display campaign outcomes with relation to the launched month, as continuous data over time, a line with markers chart type was selected. 
 
-![Outcomes_vs_Goals](https://github.com/MSF2141/kickstarter-analysis/blob/df7d9ee1ade3c2aa7ec4c6beb252f90852bf5cb7/Resources/Theater_Outcomes_vs_Launch.png)
+![Outcomes_vs_Launch](https://github.com/MSF2141/kickstarter-analysis/blob/df7d9ee1ade3c2aa7ec4c6beb252f90852bf5cb7/Resources/Theater_Outcomes_vs_Launch.png)
 
 ### Analysis of Outcomes Based on Goals
 To analyze campaign outcomes based on their campaign goals, a summary table was created that contained a “Goal” column with several dollar-amount ranges so campaigns could be filtered based on their goal amount.  A COUNTIF() function was used to collect information from the Kickstarter dataset about the outcome and goal amount for the “Plays” subcategory and to fill the "Number Successful," "Number Failed," and "Number Canceled" campaign columns. Per each goal-amount range, “Total  Projects” was calculated using a SUM() function.  
@@ -27,7 +27,7 @@ To analyze campaign outcomes based on their campaign goals, a summary table was 
 Percentage of successful, failed, and canceled campaign outcomes was calculated by dividing "Number Successful", "Number Failed", and "Number Canceled" by “Total projects”, respectively. To display data as percentage, the format of  “Percentage successful”, “Percentage failed”, and “Percentage canceled” columns was changed from general to percentage.
 
 To visualize the data as a relationship between the goal-amount ranges and percentage of successful, failed, or canceled campaigns, a line chart was created.
-
+![Outcomes_vs_Goals](https://github.com/MSF2141/kickstarter-analysis/blob/c1ef0c78db6bd53c981d6a32ab45600eeef5841d/Resources/Outcomes_vs_Goals.png)
 
 
 
