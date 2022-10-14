@@ -10,6 +10,7 @@ The purpose of this analysis is to use the Kickstarter dataset and visualize cam
 
 ## **Analysis and Challenges**
 [Kickstarter_Challenge](path/to/filename.xlxs
+Kickstarter_Challenge.zip
 
 ### Analysis of Outcomes Based on Launch Date
 To analyze campaign outcomes based on their launch dates, the Kickstarter dataset was further processed to make the data more detailed. First, the “Category and Subcategory” column was split into two separate columns, “Parent category” and “Subcategory”. Second, the “Launched_at” and “Deadline” columns were converted from Unix timestamps (i.e., a measure of time in seconds since midnight of January 1, 1970) into a day-month-year format in new columns “Date Created Conversion” and “Date Ended Conversion”, respectively. Third, year was extracted from the “Date Created Conversion” column to a new “Years” column.  
