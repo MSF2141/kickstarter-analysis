@@ -10,7 +10,7 @@ The purpose of this analysis is to use the Kickstarter dataset and visualize cam
 
 ## **Analysis and Challenges**
 Detail analysis and visualizations can be found here:
-https://github.com/MSF2141/kickstarter-analysis/blob/ff87527236d5482eea37c1c45f67196edc69bc89/Kickstarter_Challenge.zip
+[Kickstarter_Challenge](https://github.com/MSF2141/kickstarter-analysis/blob/ff87527236d5482eea37c1c45f67196edc69bc89/Kickstarter_Challenge.zip)
 
 ### Analysis of Outcomes Based on Launch Date
 To analyze campaign outcomes based on their launch dates, the Kickstarter dataset was further processed to make the data more detailed. First, the “Category and Subcategory” column was split into two separate columns, “Parent category” and “Subcategory”. Second, the “Launched_at” and “Deadline” columns were converted from Unix timestamps (i.e., a measure of time in seconds since midnight of January 1, 1970) into a day-month-year format in new columns “Date Created Conversion” and “Date Ended Conversion”, respectively. Third, year was extracted from the “Date Created Conversion” column to a new “Years” column.  
@@ -37,6 +37,7 @@ To visualize the data as a relationship between the goal-amount ranges and perce
     : Answer the following questions in complete and coherent sentences.
        
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
+- The month that launched the most successful Kickstarter campaigns was May followed by June and July. These months all had similar numer of failed campaigns. 
 
 - What can you conclude about the Outcomes based on Goals?
 
