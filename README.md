@@ -9,6 +9,7 @@ The purpose of this analysis is to use the Kickstarter dataset and visualize cam
 
 
 ## **Analysis and Challenges**
+Detail analysis and visualizations can be found here:
 https://github.com/MSF2141/kickstarter-analysis/blob/ff87527236d5482eea37c1c45f67196edc69bc89/Kickstarter_Challenge.zip
 
 ### Analysis of Outcomes Based on Launch Date
@@ -17,6 +18,7 @@ To analyze campaign outcomes based on their launch dates, the Kickstarter datase
 To summarize the data, a pivot table was created from the KickStarter worksheet and filtered based on the “Parent Category” and “Years”. The "Parent Category" was then filtered to show only the data for "Theater" subcategory. For the Columns value the "Outcome" was selected. Column labels were then filtered to show only "Successful," "Failed," and "Canceled" campaigns. For the Rows value the "Date Created Conversion" was selected. The "Row Labels" column was grouped to show only the months of the year. In the Values box, the “Outcome" was selected and it appeared as "Count of outcome."	
 
 To visualize the data, a pivot chart was created from the pivot table. To display campaign outcomes with relation to the launched month, as continuous data over time, a line with markers chart type was selected. 
+
 
 
 ### Analysis of Outcomes Based on Goals
