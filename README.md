@@ -27,7 +27,7 @@ To analyze campaign outcomes based on their campaign goals, a summary table was 
 Percentage of successful, failed, and canceled campaign outcomes was calculated by dividing "Number Successful", "Number Failed", and "Number Canceled" by “Total projects”, respectively. To display data as percentage, the format of  “Percentage successful”, “Percentage failed”, and “Percentage canceled” columns was changed from general to percentage.
 
 To visualize the data as a relationship between the goal-amount ranges and percentage of successful, failed, or canceled campaigns, a line chart was created.
-
+![Outcomes_vs_Goals](kickstarter-analysis/Resources/Outcomes_vs_Goals.png)
 
 ### Challenges and Difficulties Encountered
 
