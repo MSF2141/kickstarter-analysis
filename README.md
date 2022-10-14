@@ -1,5 +1,5 @@
 # An Analysis of Kickstarter Campaigns
-Analysis of crowdfunding data to determine whether specific factors could make a campaign successful.
+
 
 ## **Overview of Project**
 An up-and-coming playwright, Louise, started a crowdfunding campaign to help fund her play, *Fever* in the US. Her estimated budget was over $10,000. Louise’s campaign came close to its fundraising goal in a short amount of time. Now, she wants to know how different campaigns fared in relation to their launch dates and their funding goals. 
@@ -7,8 +7,10 @@ An up-and-coming playwright, Louise, started a crowdfunding campaign to help fun
 ### Purpose
 The purpose of this analysis is to use the Kickstarter dataset and visualize campaign outcomes based on their launch dates and their funding goals. 
 
+
 ## **Analysis and Challenges**
-    Explain how you performed your analysis using images and links to code, as well as any challenges you encountered and how you overcame them. If you had no challenges, describe any possible challenges or difficulties that could be encountered.
+[Kickstarter_Challenge](path/to/filename.xlxs
+
 ### Analysis of Outcomes Based on Launch Date
 To analyze campaign outcomes based on their launch dates, the Kickstarter dataset was further processed to make the data more detailed. First, the “Category and Subcategory” column was split into two separate columns, “Parent category” and “Subcategory”. Second, the “Launched_at” and “Deadline” columns were converted from Unix timestamps (i.e., a measure of time in seconds since midnight of January 1, 1970) into a day-month-year format in new columns “Date Created Conversion” and “Date Ended Conversion”, respectively. Third, year was extracted from the “Date Created Conversion” column to a new “Years” column.  
 
