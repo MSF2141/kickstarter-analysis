@@ -18,8 +18,8 @@ To analyze campaign outcomes based on their launch dates, the Kickstarter datase
 To summarize the data, a pivot table was created from the KickStarter worksheet and filtered based on the “Parent Category” and “Years”. The "Parent Category" was then filtered to show only the data for "Theater" subcategory. For the Columns value the "Outcome" was selected. Column labels were then filtered to show only "Successful," "Failed," and "Canceled" campaigns. For the Rows value the "Date Created Conversion" was selected. The "Row Labels" column was grouped to show only the months of the year. In the Values box, the “Outcome" was selected and it appeared as "Count of outcome."	
 
 To visualize the data, a pivot chart was created from the pivot table. To display campaign outcomes with relation to the launched month, as continuous data over time, a line with markers chart type was selected. 
-![kickstarter-analysis/Resources/Outcomes_vs_Goals](https://github.com/MSF2141/kickstarter-analysis/Resources/Theater_Outcomes_vs_Launch.png) 
 
+![Outcomes_vs_Goals](https://github.com/MSF2141/kickstarter-analysis/blob/df7d9ee1ade3c2aa7ec4c6beb252f90852bf5cb7/Resources/Theater_Outcomes_vs_Launch.png)
 
 ### Analysis of Outcomes Based on Goals
 To analyze campaign outcomes based on their campaign goals, a summary table was created that contained a “Goal” column with several dollar-amount ranges so campaigns could be filtered based on their goal amount.  A COUNTIF() function was used to collect information from the Kickstarter dataset about the outcome and goal amount for the “Plays” subcategory and to fill the "Number Successful," "Number Failed," and "Number Canceled" campaign columns. Per each goal-amount range, “Total  Projects” was calculated using a SUM() function.  
