@@ -28,6 +28,8 @@ Percentage of successful, failed, and canceled campaign outcomes was calculated 
 
 To visualize the data as a relationship between the goal-amount ranges and percentage of successful, failed, or canceled campaigns, a line chart was created.
 ![Outcomes_vs_Goals](https://github.com/MSF2141/kickstarter-analysis/Resources/Outcomes_vs_Goals.png)
+https://github.com/MSF2141/kickstarter-analysis/blob/29462a0a826c3e0e2492e9aaf1ef41c30409a357/Resources/Outcomes_vs_Goals.png
+
 
 ### Challenges and Difficulties Encountered
 
